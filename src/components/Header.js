@@ -14,6 +14,7 @@ const Header = () => {
             </div>
             <div className = "nav-container">
                 <div className = "nav__items">
+                    <input type="search" name="searchbar" id="searchbar" placeholder="Ex : Film, Serie, Anime..." />
                     <img src = {search} alt="search for a movie" className = "header__icons"/>
                 </div>
                 <div className = "nav__items">
