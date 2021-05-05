@@ -25,7 +25,8 @@ strong{
 }
 small{
   position: absolute;
-  top: 40px;
+  top: 31px;
+  left: 48px;
   font-family: 'Absolute', sans-serif;
   font-size: 40px;
   font-weight: normal;
@@ -49,8 +50,8 @@ select{
 
 }
 .header__logo{
-  width: 8%;
-  height: 9%;
+  width: 5%;
+  height: 7%;
   border: 0px solid black;
 }
 .header__icons{
@@ -94,8 +95,8 @@ select{
 }
 .page--dark-background h1{
   position: absolute;
-  top: 27px;
-  left: 120px;
+  top: 20px;
+  left: 70px;
   font-size: 40px;
   margin: 0% auto;
   border: 0px black solid;
