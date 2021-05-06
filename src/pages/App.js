@@ -1,6 +1,15 @@
+import Header from "../components/Header";
+import Home from "../components/Home";
+import Footer from "../components/Footer";
 import "../styles/index.css";
 function App() {
-  return <div className="page--dark-background">CINEEEEMOIIII...</div>;
+  return (
+    <div>
+      <Header />
+      <Home />
+      <Footer/>
+    </div>
+  );
 }
 
 export default App;
