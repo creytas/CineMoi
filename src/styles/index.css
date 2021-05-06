@@ -58,6 +58,9 @@ input{
   font-size: 20px;
   font-style: italic;
 }
+input:focus{
+  outline: none;
+}
 .header__logo{
   width: 5%;
   height: 7%;
@@ -109,4 +112,22 @@ input{
   font-size: 40px;
   margin: 0% auto;
   border: 0px black solid;
+}
+.welcome-picture{
+  width: 75%;
+}
+.welcome-text{
+  width: 25%;
+  padding: 0% 1%;
+  font-family: 'Neon', sans-serif;
+  font-weight: normal;
+  font-size: 20px;
+  color: #e6e6ff;
+  text-align: justify;
+  border: 0px solid #fff;
+}
+.welcome-text h2{
+  font-size: 23px;
+  text-align: center;
+  margin: 2% 0%;
 }
