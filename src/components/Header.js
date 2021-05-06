@@ -6,7 +6,7 @@ import lang from "../img/icons/wondicon-ui-free-website_111210.svg"
 import search from "../img/icons/3643762-find-glass-magnifying-search-zoom_113420.svg"
 const Header = () => {
     return (
-        <div className = "page page--dark-background">
+        <div className = "page page--background">
             <img src = {logo} alt = "cinemoi logo" className = "header__logo"/>
             <div className = "header__description">
                 <h1>CINEMOI</h1>

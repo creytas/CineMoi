@@ -20,8 +20,9 @@
 body{
   background-color: #202732;
 }
-strong{
+strong, em{
   font-weight: normal;
+  font-style: normal;
 }
 small{
   position: absolute;
@@ -61,6 +62,31 @@ input{
 input:focus{
   outline: none;
 }
+.list li{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  list-style: none;
+  margin: 10% 0%;
+  border: 0px solid white;
+}
+li:hover{
+  font-weight: 900;
+  transform: scale(1.1);
+}
+a{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: inherit;
+  border: 0px solid white;
+}
+a img{
+  width: 12%;
+  margin-right: 2%;
+}
+
 .header__logo{
   width: 5%;
   height: 7%;
@@ -96,8 +122,9 @@ input:focus{
   width: 100%;
   display: flex;
   align-items: center;
+  border: 0px solid red;
 }
-.page--dark-background{
+.page--background{
   box-shadow: 0px 0px 4px #e6e6ff;
   background-color: #9cbdf3;
   font-family: 'Neon', sans-serif;
@@ -105,7 +132,7 @@ input:focus{
   font-weight: normal;
   color: #e6e6ff;
 }
-.page--dark-background h1{
+.page--background h1{
   position: absolute;
   top: 20px;
   left: 70px;
@@ -130,4 +157,50 @@ input:focus{
   font-size: 23px;
   text-align: center;
   margin: 2% 0%;
+}
+.advantage img{
+  width: 50%;
+  margin: 5% auto;
+}
+.advantage h2{
+  font-size: 20px;
+  font-weight: 700;
+  color: #202732;
+  text-shadow: 0px 0px 1px #2c2c2c;
+  text-align: center;
+}
+.footer-logo{
+  width: 13%;
+  height: 16%;
+  margin-left: 5%;
+  border: 0px solid #fff;
+}
+.footer__info{
+  width: 200%;
+  margin: 12% 0% 0% 0%;
+  padding-bottom:2%;
+  display: flex;
+  justify-content: space-around;
+  border-bottom: 4px solid #fff;
+}
+.footer__info h3{
+  font-family: 'Absolute', sans-serif;
+  font-size: 25px;
+  letter-spacing: 4px;
+  color: #A52929;
+}
+.footer__info p{
+  margin: 0% 3%;
+  font-family: 'Neon', sans-serif;
+  font-size: 16.5px;
+  color: #e6e6ff;
+}
+.footer__legal{
+  width: 100%;
+  display: flex;
+  margin: 5% 0% 0% 55%;
+  font-family: 'Neon', sans-serif;
+  font-weight: 500;
+  text-shadow: 0px 0px 3px #2c2c2c;
+  border: 0px solid #fff;
 }
