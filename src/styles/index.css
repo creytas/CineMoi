@@ -104,7 +104,7 @@ a > img {
   font-weight: 300;
 }
 .nav-band {
-  margin-top: -6%;
+  /* margin-top: -6%; */
   padding-bottom: 1%;
   box-shadow: 0px 0px 4px #2c2c2c;
   position: fixed;
@@ -136,6 +136,9 @@ a > img {
   align-items: center;
   border: 0px solid red;
 }
+.page__position {
+  padding-top: 6%;
+}
 .page--background {
   box-shadow: 0px 0px 4px #e6e6ff;
   background-color: #202732;
@@ -153,8 +156,7 @@ a > img {
   border: 0px black solid;
 }
 .home-band {
-  margin-top: 6%;
-  padding: 5% 0% 15% 0%;
+  padding: 10% 0% 15% 0%;
   display: flex;
   justify-content: flex-end;
   background: rgb(32, 39, 50);
@@ -401,12 +403,12 @@ a > img {
 }
 .modal-card {
   width: 80%;
-  margin: 2% auto;
-  padding: 2%;
+  margin: 0% auto;
+  padding: 6% 0%;
   box-shadow: 2px 2px 4px #2c2c2c;
   opacity: 0.8;
   border-radius: 5px;
-  border: 3px solid white;
+  border: 0px solid white;
 }
 .show-detail {
   width: 100%;

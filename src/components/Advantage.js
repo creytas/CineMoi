@@ -9,8 +9,8 @@ const Advantage = () => {
   return (
     <div className="page page--background advantage-band">
       <h2>
-        AVEC <span>CINEMOI</span> VOUS AVEZ LA GARANTIE D'AVOIR ACCES A UN{" "}
-        <span>CONTENU DE CHOIX</span> ET DE BENEFICIER DE{" "}
+        AVEC <span>CINEMOI</span> VOUS AVEZ LA GARANTIE D'AVOIR ACCES A UN
+        <span>CONTENU DE CHOIX</span> ET DE BENEFICIER DE
         <span>NOMBREUX AVANTAGES</span>
       </h2>
       <div className="advantage">
@@ -50,12 +50,14 @@ const Advantage = () => {
           </p>
         </div>
       </div>
-      <Button
-        text="Debutez votre AVENTURE..."
-        bgColor="#202732"
-        color="#9cbdf3"
-        onClick={() => console.log("Ouvrir la Showroom")}
-      />
+      <Link to="/shows" className="container">
+        <Button
+          text="Debutez votre AVENTURE..."
+          bgColor="#202732"
+          color="#9cbdf3"
+          onClick={() => console.log("Ouvrir la Showroom")}
+        />
+      </Link>
     </div>
   );
 };

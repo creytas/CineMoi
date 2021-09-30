@@ -1,11 +1,9 @@
 import axios from "axios";
 import { useState, useEffect } from "react";
-import Header from "../components/Header";
 import trendyIcon from "../img/icons/popcorn-svgrepo-com.svg";
 import moviesIcon from "../img/icons/clapboard-svgrepo-com.svg";
 import tvShowIcon from "../img/icons/film-strip-svgrepo-com.svg";
 import Show from "./Show";
-import { BrowserRouter, Route, Switch } from "react-router-dom";
 
 const Showing = () => {
   const [popularShow, setPopularShow] = useState([]);
@@ -36,25 +34,15 @@ const Showing = () => {
   }, []);
 
   return (
-    <BrowserRouter>
-      <Header />
-      <Switch>
-        <Route path="/showing" />
-      </Switch>
-      <div>
-        <Show
-          shows={trendingShow}
-          icon={trendyIcon}
-          title="Films & Series tendances"
-        />
-        <Show shows={popularShow} icon={moviesIcon} title="Films populaires" />
-        <Show
-          shows={popularTVShow}
-          icon={tvShowIcon}
-          title="Series populaires"
-        />
-      </div>
-    </BrowserRouter>
+    <div className="page__position">
+      <Show
+        shows={trendingShow}
+        icon={trendyIcon}
+        title="Films & Series tendances"
+      />
+      <Show shows={popularShow} icon={moviesIcon} title="Films populaires" />
+      <Show shows={popularTVShow} icon={tvShowIcon} title="Series populaires" />
+    </div>
   );
 };
 
